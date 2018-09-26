@@ -5,7 +5,7 @@ import os
 es_tunnel_name = 'es-tunnel'
 es_local_port = 2443
 es_remote_port = 443
-es_endpoint = "search-dtvnivpa1d-elasticsearch-h6kzkl5od22vfsy7i72ib7vwhq.us-west-2.es.amazonaws.com"
+es_endpoint = "os.environ['aws_es_endpoint']"
 
 # common config params
 aws_private_key = os.environ['aws_private_key']
